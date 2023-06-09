@@ -46,22 +46,22 @@ Here's an example to demonstrate the usage:
 
 **Input:**
 
-        4 2
-        <tag1>
-        <tag2 attr1="value1" attr2="value2">
-        <tag3 attr3="value3">
-        </tag3>
-        </tag2>
-        <tag4 attr4="value4">
-        </tag4>
-        tag1value
-        tag2.attr1value
+       4 2
+       <tag1>
+       <tag2 attr1="value1" attr2="value2">
+       <tag3 attr3="value3">
+       </tag3>
+       </tag2>
+       <tag4 attr4="value4">
+       </tag4>
+       tag1value
+       tag2.attr1value
 
 
 **Output:**
 
-        Not Found!
-        value1
+       Not Found!
+       value1
 
 
 In the above example, there are four tags in the HRML source code. The first query is `tag1~value`, which retrieves the value of the attribute `value` from `tag1`. Since `tag1` does not have that attribute, the output is "Not Found!". The second query is `tag2.attr1~value`, which retrieves the value of the attribute `value` from `tag2` with the attribute name `attr1`. The output is `value1`.
