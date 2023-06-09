@@ -21,7 +21,6 @@ tag1~value
 tag1.tag2~name
 
 ## Usage
-
 1. Compile the code using a C++ compiler:
 
         g++ -o compiler compiler.cpp
